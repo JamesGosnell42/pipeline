@@ -13,7 +13,7 @@ Complete these prerequisites to run Tekton locally using Docker Desktop:
 
 - Install the [required tools](https://github.com/tektoncd/pipeline/blob/main/DEVELOPMENT.md#requirements).
 - Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
-- Configure Docker Desktop ([Mac](https://docs.docker.com/docker-for-mac/#resources), [Windows](https://docs.docker.com/docker-for-windows/#resources))to use six CPUs, 10 GB of RAM and 2GB of swap space.
+- Configure Docker Desktop ([Mac](https://docs.docker.com/docker-for-mac/#resources), [Windows](https://docs.docker.com/docker-for-windows/#resources))to use six CPUs, 10 GB of RAM and 2GB of swap space. [Windows Subsytem for Linux]https://learn.microsoft.com/en-us/windows/wsl/wsl-config#configure-global-options-with-wslconfig
 - Set `host.docker.internal:5000` as an insecure registry with Docker for Desktop. See the [Docker insecure registry documentation](https://docs.docker.com/registry/insecure/).
   for details.
 - Pass `--insecure` as an argument to your Kaniko tasks so that you can push to an insecure registry.
